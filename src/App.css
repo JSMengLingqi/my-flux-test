@@ -1,0 +1,12 @@
+.qianfeng-enter {
+  margin-left: -200px;
+  opacity: 0;
+  transform: rotate(0deg);
+  transition-duration: 5000ms;
+}
+
+.qianfeng-enter-active {
+  opacity: 1;
+  transform: rotate(360deg);
+  margin-left: 0;
+}
